@@ -99,7 +99,7 @@
         "defaultProps": {
           "styles": {
             "root": {
-              "transform": "scale(1)",
+              "transform": "scale(0.5)",
               "transformOrigin": "top left",
               "borderRadius": "8px"
             }
@@ -130,7 +130,7 @@
         "defaultProps": {
           "styles": {
             "chart": {
-              "transform": "scale(1)",
+              "transform": "scale(0.5)",
               "transformOrigin": "top left"
             },
             "bar": {
