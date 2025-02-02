@@ -76,7 +76,7 @@
         "#999884"
       ]
     },
-    "defaultRadius": "0",
+    "defaultRadius": "8",
     "fontFamily": "'Work Sans', sans-serif",
     "headings": {
       "fontFamily": "'Work Sans', sans-serif",
@@ -99,7 +99,7 @@
         "defaultProps": {
           "styles": {
             "chart": {
-              "transform": "scale(0.5)",
+              "transform": "scale(0.4)",
               "transformOrigin": "top left"
             }
           }
@@ -110,7 +110,8 @@
           "styles": {
             "root": {
               "transform": "scale(0.7)",
-              "transformOrigin": "top left"
+              "transformOrigin": "top left",
+              "borderRadius": "8px"
             }
           }
         }
@@ -119,14 +120,16 @@
         "defaultProps": {
           "styles": {
             "label": {
-              "fontWeight": "300"
+              "fontWeight": "300",
+              "borderRadius": "8px"
             }
           }
         }
       },
       "Button": {
         "defaultProps": {
-          "fw": "300"
+          "fw": "300",
+          "radius": "8"
         }
       },
       "ExportLabelComponent": {
@@ -154,10 +157,10 @@
       "ViewportBranding": {
         "defaultProps": {
           "light": {
-            "logo": "https://assets.shapediver.com/icon/transparent/sd_icon_512x512.webp"
+            "logo": "https://example.com/my-custom-logo.png"
           },
           "dark": {
-            "logo": "https://assets.shapediver.com/icon/transparent/sd_icon_512x512.webp"
+            "logo": "https://example.com/my-custom-logo.png"
           }
         }
       }
