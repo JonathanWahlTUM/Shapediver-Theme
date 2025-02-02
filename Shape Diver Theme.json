@@ -4,75 +4,75 @@
     "primaryColor": "customPrimaryDark",
     "colors": {
       "customPrimaryDark": [
-        "#E0E5ED",
-        "#C0C8D9",
-        "#A0ABC5",
-        "#8090B1",
-        "#60839D",
-        "#50718B",
-        "#405F79",
-        "#304D67",
-        "#203B55",
+        "#3D5361",
+        "#3D5361",
+        "#3D5361",
+        "#3D5361",
+        "#3D5361",
+        "#3D5361",
+        "#3D5361",
+        "#3D5361",
+        "#3D5361",
         "#3D5361"
       ],
       "customLightBackground": [
         "#ECE4DD",
-        "#DED0C8",
-        "#CDCAB1",
-        "#BCB59B",
-        "#ABA084",
-        "#998D6E",
-        "#887757",
-        "#776241",
-        "#665C2A",
-        "#554515"
+        "#ECE4DD",
+        "#ECE4DD",
+        "#ECE4DD",
+        "#ECE4DD",
+        "#ECE4DD",
+        "#ECE4DD",
+        "#ECE4DD",
+        "#ECE4DD",
+        "#ECE4DD"
       ],
       "customSecondary": [
         "#B8C1C1",
-        "#A0A9A9",
-        "#889191",
-        "#707979",
-        "#586161",
-        "#404949",
-        "#282F2F",
-        "#101717",
-        "#000000",
+        "#B8C1C1",
+        "#B8C1C1",
+        "#B8C1C1",
+        "#B8C1C1",
+        "#B8C1C1",
+        "#B8C1C1",
+        "#B8C1C1",
+        "#B8C1C1",
         "#B8C1C1"
       ],
       "customAccent": [
         "#9C5D41",
-        "#8B5238",
-        "#7A4830",
-        "#693F27",
-        "#58371F",
-        "#472E16",
-        "#36260E",
-        "#251D05",
-        "#140500",
+        "#9C5D41",
+        "#9C5D41",
+        "#9C5D41",
+        "#9C5D41",
+        "#9C5D41",
+        "#9C5D41",
+        "#9C5D41",
+        "#9C5D41",
         "#9C5D41"
       ],
       "customAccent2": [
-        "#C0A290",
-        "#AFA087",
-        "#9F8C7E",
-        "#8E7A74",
-        "#7D686B",
-        "#6C5652",
-        "#5B4448",
-        "#4A333F",
-        "#392235",
-        "#C0A290"
+        "#c0a290",
+        "#c0a290",
+        "#c0a290",
+        "#c0a290",
+        "#c0a290",
+        "#c0a290",
+        "#c0a290",
+        "#c0a290",
+        "#c0a290",
+        "#c0a290"
       ],
       "customNeutral": [
         "#999884",
-        "#8A8A74",
-        "#7B7B64",
-        "#6C6C54",
-        "#5D5D44",
-        "#4E4E34",
-        "#3F3F24",
-        "#303014",
-        "#212104",
+        "#999884",
+        "#999884",
+        "#999884",
+        "#999884",
+        "#999884",
+        "#999884",
+        "#999884",
+        "#999884",
         "#999884"
       ]
     },
@@ -89,7 +89,7 @@
       "customLightBackground": "#ECE4DD",
       "customSecondary": "#B8C1C1",
       "customAccent": "#9C5D41",
-      "customAccent2": "#C0A290",
+      "customAccent2": "#c0a290",
       "customNeutral": "#999884",
       "defaultFontWeight": "100",
       "forceColorScheme": "light"
@@ -99,7 +99,7 @@
         "defaultProps": {
           "styles": {
             "chart": {
-              "transform": "scale(0.4)",
+              "transform": "scale(0.35)",
               "transformOrigin": "top left"
             }
           }
@@ -157,10 +157,10 @@
       "ViewportBranding": {
         "defaultProps": {
           "light": {
-            "logo": "https://github.com/JonathanWahlTUM/Shapediver-Theme/blob/c7c3c14a64585fb70673dace1c2187a5def94253/logo.png"
+            "logo": "https://raw.githubusercontent.com/JonathanWahlTUM/Shapediver-Theme/c7c3c14a64585fb70673dace1c2187a5def94253/logo.png"
           },
           "dark": {
-            "logo": "https://github.com/JonathanWahlTUM/Shapediver-Theme/blob/c7c3c14a64585fb70673dace1c2187a5def94253/logo.png"
+            "logo": "https://raw.githubusercontent.com/JonathanWahlTUM/Shapediver-Theme/c7c3c14a64585fb70673dace1c2187a5def94253/logo.png"
           }
         }
       }
