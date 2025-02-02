@@ -95,11 +95,42 @@
       "forceColorScheme": "light"
     },
     "components": {
+      "AppBuilderContainerWrapper": {
+        "defaultProps": {
+          "styles": {
+            "root": {
+              "transform": "scale(1)",
+              "transformOrigin": "top left",
+              "borderRadius": "8px"
+            }
+          }
+        }
+      },
+      "AppBuilderVerticalContainer": {
+        "defaultProps": {
+          "styles": {
+            "root": {
+              "transform": "scale(0.5)",
+              "transformOrigin": "top left"
+            }
+          }
+        }
+      },
+      "AppBuilderHorizontalContainer": {
+        "defaultProps": {
+          "styles": {
+            "root": {
+              "transform": "scale(0.5)",
+              "transformOrigin": "top left"
+            }
+          }
+        }
+      },
       "BarChartWidget": {
         "defaultProps": {
           "styles": {
             "chart": {
-              "transform": "scale(0.35)",
+              "transform": "scale(1)",
               "transformOrigin": "top left"
             },
             "bar": {
@@ -111,55 +142,6 @@
           }
         }
       },
-      "AppBuilderContainerWrapper": {
-        "defaultProps": {
-          "styles": {
-            "root": {
-              "transform": "scale(0.1)",
-              "transformOrigin": "top left",
-              "borderRadius": "8px"
-            }
-          }
-        }
-      },
-      "Accordion": {
-        "defaultProps": {
-          "styles": {
-            "label": {
-              "fontWeight": "300",
-              "borderRadius": "8px"
-            }
-          }
-        }
-      },
-      "Button": {
-        "defaultProps": {
-          "fw": "300",
-          "radius": "8"
-        }
-      },
-      "ExportLabelComponent": {
-        "defaultProps": {
-          "fontWeight": "100"
-        }
-      },
-      "MarkdownWidgetComponent": {
-        "defaultProps": {
-          "boldFontWeight": "200",
-          "strongFontWeight": "200"
-        }
-      },
-      "ParameterLabelComponent": {
-        "defaultProps": {
-          "fontWeight": "100"
-        }
-      },
-      "Text": {
-        "defaultProps": {
-          "fw": "100",
-          "size": "sm"
-        }
-      },
       "ViewportBranding": {
         "defaultProps": {
           "styles": {
@@ -169,10 +151,10 @@
             }
           },
           "light": {
-            "logo": "https://github.com/JonathanWahlTUM/Shapediver-Theme/blob/main/logo.jpg?raw=true"
+            "logo": "https://github.com/JonathanWahlTUM/Shapediver-Theme/blob/4d24c60e51e2d8a084aad0c035a3c90e0e76952a/logo.png?raw=true"
           },
           "dark": {
-            "logo": "https://github.com/JonathanWahlTUM/Shapediver-Theme/blob/main/logo.jpg?raw=true"
+            "logo": "https://github.com/JonathanWahlTUM/Shapediver-Theme/blob/4d24c60e51e2d8a084aad0c035a3c90e0e76952a/logo.png?raw=true"
           }
         }
       }
