@@ -1,5 +1,16 @@
 {
   "version": "1.0",
+  "sessions": [
+    {
+      "id": "default",
+      "slug": "ar-cube-app-builder",
+      "initialParameterValues": {
+        "Position": "3,5,4",
+        "Cubes": "3"
+      },
+      "acceptRejectMode": true
+    }
+  ],
   "themeOverrides": {
     "primaryColor": "blue",
     "colors": {
@@ -15,40 +26,6 @@
         "#3D5361",
         "#3D5361"
       ]
-    },
-    "defaultRadius": "md",
-    "fontFamily": "'Work Sans', sans-serif",
-    "headings": {
-      "fontFamily": "'Work Sans', sans-serif",
-      "fontWeight": 300
-    },
-    "white": "#FFFFFF",
-    "black": "#131A2A",
-    "other": {
-      "defaultFontWeight": "100",
-      "forceColorScheme": "light"
-    },
-    "components": {
-      "AppBuilderContainerWrapper": {
-        "defaultProps": {
-          "styles": {
-            "root": {
-              "transform": "scale(0.8)",
-              "transformOrigin": "top left"
-            }
-          }
-        }
-      },
-      "ViewportBranding": {
-        "defaultProps": {
-          "light": {
-            "logo": "https://github.com/JonathanWahlTUM/Shapediver-Theme/blob/4d24c60e51e2d8a084aad0c035a3c90e0e76952a/logo.png?raw=true"
-          },
-          "dark": {
-            "logo": "https://github.com/JonathanWahlTUM/Shapediver-Theme/blob/4d24c60e51e2d8a084aad0c035a3c90e0e76952a/logo.png?raw=true"
-          }
-        }
-      }
     }
   }
 }
