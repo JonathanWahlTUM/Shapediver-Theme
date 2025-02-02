@@ -1,0 +1,32 @@
+{
+    "version": "1.0",
+    "themeOverrides": {
+      "colors": {
+        "primaryDark": ["#3D5361"],
+        "lightBackground": ["#ECE4DD"],
+        "secondary": ["#B8C1C1"],
+        "accent": ["#9C5D41"],
+        "accent2": ["#c0a290"],
+        "neutral": ["#999884"]
+      },
+      "primaryColor": "primaryDark",
+      "components": {
+        "BarChartWidget": {
+          "styles": {
+            "chart": {
+              "transform": "scale(0.5)",
+              "transformOrigin": "top left"
+            }
+          }
+        },
+        "AppBuilderContainerWrapper": {
+          "styles": {
+            "root": {
+              "transform": "scale(0.7)",
+              "transformOrigin": "top left"
+            }
+          }
+        }
+      }
+    }
+  }
