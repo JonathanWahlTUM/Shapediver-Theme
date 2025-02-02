@@ -101,6 +101,12 @@
             "chart": {
               "transform": "scale(0.35)",
               "transformOrigin": "top left"
+            },
+            "bar": {
+              "fill": "#9C5D41"
+            },
+            "label": {
+              "color": "#3D5361"
             }
           }
         }
@@ -109,7 +115,7 @@
         "defaultProps": {
           "styles": {
             "root": {
-              "transform": "scale(0.7)",
+              "transform": "scale(0.1)",
               "transformOrigin": "top left",
               "borderRadius": "8px"
             }
@@ -156,11 +162,17 @@
       },
       "ViewportBranding": {
         "defaultProps": {
+          "styles": {
+            "logo": {
+              "transform": "scale(2)",
+              "transformOrigin": "center"
+            }
+          },
           "light": {
-            "logo": "https://raw.githubusercontent.com/JonathanWahlTUM/Shapediver-Theme/c7c3c14a64585fb70673dace1c2187a5def94253/logo.png"
+            "logo": "https://github.com/JonathanWahlTUM/Shapediver-Theme/blob/4d24c60e51e2d8a084aad0c035a3c90e0e76952a/logo.png?raw=true"
           },
           "dark": {
-            "logo": "https://raw.githubusercontent.com/JonathanWahlTUM/Shapediver-Theme/c7c3c14a64585fb70673dace1c2187a5def94253/logo.png"
+            "logo": "https://github.com/JonathanWahlTUM/Shapediver-Theme/blob/4d24c60e51e2d8a084aad0c035a3c90e0e76952a/logo.png?raw=true"
           }
         }
       }
