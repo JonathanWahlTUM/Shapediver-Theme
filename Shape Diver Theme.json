@@ -99,7 +99,7 @@
         "defaultProps": {
           "styles": {
             "root": {
-              "transform": "scale(0.5)",
+              "transform": "scale(2)",
               "transformOrigin": "top left",
               "borderRadius": "8px"
             }
