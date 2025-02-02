@@ -1,9 +1,9 @@
 {
   "version": "1.0",
   "themeOverrides": {
-    "primaryColor": "customPrimaryDark",
+    "primaryColor": "blue",
     "colors": {
-      "customPrimaryDark": [
+      "blue": [
         "#3D5361",
         "#3D5361",
         "#3D5361",
@@ -14,69 +14,9 @@
         "#3D5361",
         "#3D5361",
         "#3D5361"
-      ],
-      "customLightBackground": [
-        "#ECE4DD",
-        "#ECE4DD",
-        "#ECE4DD",
-        "#ECE4DD",
-        "#ECE4DD",
-        "#ECE4DD",
-        "#ECE4DD",
-        "#ECE4DD",
-        "#ECE4DD",
-        "#ECE4DD"
-      ],
-      "customSecondary": [
-        "#B8C1C1",
-        "#B8C1C1",
-        "#B8C1C1",
-        "#B8C1C1",
-        "#B8C1C1",
-        "#B8C1C1",
-        "#B8C1C1",
-        "#B8C1C1",
-        "#B8C1C1",
-        "#B8C1C1"
-      ],
-      "customAccent": [
-        "#9C5D41",
-        "#9C5D41",
-        "#9C5D41",
-        "#9C5D41",
-        "#9C5D41",
-        "#9C5D41",
-        "#9C5D41",
-        "#9C5D41",
-        "#9C5D41",
-        "#9C5D41"
-      ],
-      "customAccent2": [
-        "#c0a290",
-        "#c0a290",
-        "#c0a290",
-        "#c0a290",
-        "#c0a290",
-        "#c0a290",
-        "#c0a290",
-        "#c0a290",
-        "#c0a290",
-        "#c0a290"
-      ],
-      "customNeutral": [
-        "#999884",
-        "#999884",
-        "#999884",
-        "#999884",
-        "#999884",
-        "#999884",
-        "#999884",
-        "#999884",
-        "#999884",
-        "#999884"
       ]
     },
-    "defaultRadius": "8",
+    "defaultRadius": "md",
     "fontFamily": "'Work Sans', sans-serif",
     "headings": {
       "fontFamily": "'Work Sans', sans-serif",
@@ -85,12 +25,6 @@
     "white": "#FFFFFF",
     "black": "#131A2A",
     "other": {
-      "customPrimaryDark": "#3D5361",
-      "customLightBackground": "#ECE4DD",
-      "customSecondary": "#B8C1C1",
-      "customAccent": "#9C5D41",
-      "customAccent2": "#c0a290",
-      "customNeutral": "#999884",
       "defaultFontWeight": "100",
       "forceColorScheme": "light"
     },
@@ -99,57 +33,14 @@
         "defaultProps": {
           "styles": {
             "root": {
-              "transform": "scale(1)",
-              "transformOrigin": "top left",
-              "borderRadius": "8px"
-            }
-          }
-        }
-      },
-      "AppBuilderVerticalContainer": {
-        "defaultProps": {
-          "styles": {
-            "root": {
-              "transform": "scale(0.5)",
+              "transform": "scale(0.8)",
               "transformOrigin": "top left"
-            }
-          }
-        }
-      },
-      "AppBuilderHorizontalContainer": {
-        "defaultProps": {
-          "styles": {
-            "root": {
-              "transform": "scale(0.5)",
-              "transformOrigin": "top left"
-            }
-          }
-        }
-      },
-      "BarChartWidget": {
-        "defaultProps": {
-          "styles": {
-            "chart": {
-              "transform": "scale(1)",
-              "transformOrigin": "top left"
-            },
-            "bar": {
-              "fill": "#9C5D41"
-            },
-            "label": {
-              "color": "#3D5361"
             }
           }
         }
       },
       "ViewportBranding": {
         "defaultProps": {
-          "styles": {
-            "logo": {
-              "transform": "scale(2)",
-              "transformOrigin": "center"
-            }
-          },
           "light": {
             "logo": "https://github.com/JonathanWahlTUM/Shapediver-Theme/blob/4d24c60e51e2d8a084aad0c035a3c90e0e76952a/logo.png?raw=true"
           },
