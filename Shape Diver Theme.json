@@ -157,10 +157,10 @@
       "ViewportBranding": {
         "defaultProps": {
           "light": {
-            "logo": "https://example.com/my-custom-logo.png"
+            "logo": "https://github.com/JonathanWahlTUM/Shapediver-Theme/blob/c7c3c14a64585fb70673dace1c2187a5def94253/logo.png"
           },
           "dark": {
-            "logo": "https://example.com/my-custom-logo.png"
+            "logo": "https://github.com/JonathanWahlTUM/Shapediver-Theme/blob/c7c3c14a64585fb70673dace1c2187a5def94253/logo.png"
           }
         }
       }
