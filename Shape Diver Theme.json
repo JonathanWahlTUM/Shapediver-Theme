@@ -131,18 +131,22 @@
         }
       },
       "ViewportBranding": {
-        "defaultProps": {
-          "styles": {
-            "logo": {}
-          },
-          "light": {
-            "logo": "https://github.com/JonathanWahlTUM/Shapediver-Theme/blob/main/logo.png?raw=true"
-          },
-          "dark": {
-            "logo": "https://github.com/JonathanWahlTUM/Shapediver-Theme/blob/main/logo.png?raw=true"
-          }
-        }
+  "defaultProps": {
+    "styles": {
+      "logo": {
+        
+        "maxWidth": "150px",
+        "height": "auto"
       }
+    },
+    "light": {
+      "logo": "https://github.com/JonathanWahlTUM/Shapediver-Theme/blob/main/logo.png?raw=true"
+    },
+    "dark": {
+      "logo": "https://github.com/JonathanWahlTUM/Shapediver-Theme/blob/main/logo.png?raw=true"
+    }
+  }
+}
     }
   }
 }
