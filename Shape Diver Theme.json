@@ -116,6 +116,17 @@
           }
         }
       },
+      "ParameterPanel": {
+  "defaultProps": {
+    "styles": {
+      "root": {
+        "backgroundColor": "red", 
+        "transform": "scale(0.8)",
+        "transformOrigin": "top left"
+      }
+    }
+  }
+},
       "AppBuilderHorizontalContainer": {
         "defaultProps": {
           "styles": {
