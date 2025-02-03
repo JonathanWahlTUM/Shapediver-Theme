@@ -110,7 +110,7 @@
         "defaultProps": {
           "styles": {
             "root": {
-              "transform": "scale(0.5)",
+              "transform": "scale(0.7)",
               "transformOrigin": "top left"
             }
           }
@@ -120,7 +120,7 @@
         "defaultProps": {
           "styles": {
             "root": {
-              "transform": "scale(0.5)",
+              "transform": "scale(0.7)",
               "transformOrigin": "top left"
             }
           }
@@ -146,7 +146,7 @@
         "defaultProps": {
           "styles": {
             "logo": {
-              "transform": "scale(2)",
+              "transform": "scale(0,5)",
               "transformOrigin": "center"
             }
           },
