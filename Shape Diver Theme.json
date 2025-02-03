@@ -95,11 +95,42 @@
       "forceColorScheme": "light"
     },
     "components": {
+      "AppBuilderContainerWrapper": {
+        "defaultProps": {
+          "styles": {
+            "root": {
+              "transform": "scale(1)",
+              "transformOrigin": "top left",
+              "borderRadius": "8px"
+            }
+          }
+        }
+      },
+      "AppBuilderVerticalContainer": {
+        "defaultProps": {
+          "styles": {
+            "root": {
+              "transform": "scale(0.8)",
+              "transformOrigin": "top left"
+            }
+          }
+        }
+      },
+      "AppBuilderHorizontalContainer": {
+        "defaultProps": {
+          "styles": {
+            "root": {
+              "transform": "scale(0.8)",
+              "transformOrigin": "top left"
+            }
+          }
+        }
+      },
       "BarChartWidget": {
         "defaultProps": {
           "styles": {
             "chart": {
-              "transform": "scale(0.35)",
+              "transform": "scale(1)",
               "transformOrigin": "top left"
             },
             "bar": {
@@ -109,55 +140,6 @@
               "color": "#3D5361"
             }
           }
-        }
-      },
-      "AppBuilderContainerWrapper": {
-        "defaultProps": {
-          "styles": {
-            "root": {
-              "transform": "scale(0.1)",
-              "transformOrigin": "top left",
-              "borderRadius": "8px"
-            }
-          }
-        }
-      },
-      "Accordion": {
-        "defaultProps": {
-          "styles": {
-            "label": {
-              "fontWeight": "300",
-              "borderRadius": "8px"
-            }
-          }
-        }
-      },
-      "Button": {
-        "defaultProps": {
-          "fw": "300",
-          "radius": "8"
-        }
-      },
-      "ExportLabelComponent": {
-        "defaultProps": {
-          "fontWeight": "100"
-        }
-      },
-      "MarkdownWidgetComponent": {
-        "defaultProps": {
-          "boldFontWeight": "200",
-          "strongFontWeight": "200"
-        }
-      },
-      "ParameterLabelComponent": {
-        "defaultProps": {
-          "fontWeight": "100"
-        }
-      },
-      "Text": {
-        "defaultProps": {
-          "fw": "100",
-          "size": "sm"
         }
       },
       "ViewportBranding": {
