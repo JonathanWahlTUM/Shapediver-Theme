@@ -99,8 +99,6 @@
         "defaultProps": {
           "styles": {
             "root": {
-              "transform": "scale(0.8)",
-              "transformOrigin": "top left",
               "borderRadius": "8px"
             }
           }
@@ -109,30 +107,20 @@
       "AppBuilderVerticalContainer": {
         "defaultProps": {
           "styles": {
-            "root": {
-              "transform": "scale(0.8)",
-              "transformOrigin": "top left"
-            }
+            "root": {}
           }
         }
       },
       "AppBuilderHorizontalContainer": {
         "defaultProps": {
           "styles": {
-            "root": {
-              "transform": "scale(0.8)",
-              "transformOrigin": "top left"
-            }
+            "root": {}
           }
         }
       },
       "BarChartWidget": {
         "defaultProps": {
           "styles": {
-            "chart": {
-              "transform": "scale(0.8)",
-              "transformOrigin": "top left"
-            },
             "bar": {
               "fill": "#9C5D41"
             },
@@ -145,10 +133,7 @@
       "ViewportBranding": {
         "defaultProps": {
           "styles": {
-            "logo": {
-              "transform": "scale(0.8)",
-              "transformOrigin": "center"
-            }
+            "logo": {}
           },
           "light": {
             "logo": "https://github.com/JonathanWahlTUM/Shapediver-Theme/blob/4d24c60e51e2d8a084aad0c035a3c90e0e76952a/logo.png?raw=true"
