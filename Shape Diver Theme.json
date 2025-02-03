@@ -136,10 +136,10 @@
             "logo": {}
           },
           "light": {
-            "logo": "https://github.com/JonathanWahlTUM/Shapediver-Theme/blob/4d24c60e51e2d8a084aad0c035a3c90e0e76952a/logo.png?raw=true"
+            "logo": "https://github.com/JonathanWahlTUM/Shapediver-Theme/blob/main/logo.png?raw=true"
           },
           "dark": {
-            "logo": "https://github.com/JonathanWahlTUM/Shapediver-Theme/blob/4d24c60e51e2d8a084aad0c035a3c90e0e76952a/logo.png?raw=true"
+            "logo": "https://github.com/JonathanWahlTUM/Shapediver-Theme/blob/main/logo.png?raw=true"
           }
         }
       }
